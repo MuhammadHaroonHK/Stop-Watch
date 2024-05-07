@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="clock.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="watch">
+            <div class="side_left">
+                <div id="hours">00</div>
+                <span id="colon">: </span>
+            </div>
+            <div class="side_right">
+                <div id="minutes">00</div>
+                <span id="colon">: </span>
+                <div id="seconds">00</div>
+            </div>
+        </div>
+        <div class="btnarea">
+            <img src="stop.png" alt="" id="stop" onclick="stopbtn ()">
+            <img src="start.png" alt="" id="start" onclick="playbtn()">
+            <img src="reset.png" alt="" id="reset" onclick="resetbtn ()">
+        </div>
+    </div>
+    <div class="msg">
+        <p>Did you want to switch into <a href="file:///G:/Practice%20on%20front%20end/Projects/Digital%20clock/clock.html">Clock</a></p>
+    </div>
+
+    <script src="clock.js"></script>
+</body>
+
+</html>
